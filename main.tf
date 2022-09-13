@@ -23,7 +23,7 @@ terraform {
 
 # create random string
 resource "random_string" "suffix" {
-  length  = 3
+  length  = 4
   special = false
   upper   = false
   numeric = false
